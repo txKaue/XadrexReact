@@ -267,7 +267,7 @@ function Board() {
                         startX={BOARD_COORDS[0] + (c * TILE_SIZE)}
                         startY={BOARD_COORDS[1] + (r * TILE_SIZE)} 
                         tileSize={TILE_SIZE} 
-                        spotColor={(r + c) % 2 ? "#b48766" : "#f0d9b7"}
+                        spotColor={(r + c) % 2 ? "grey" : "lightblue"}
                         possibleMoves={possibleMoves}
                         col={c}
                         row={r}

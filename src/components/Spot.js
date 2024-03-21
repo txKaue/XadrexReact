@@ -9,7 +9,7 @@ function Spot(props) {
     if (props.possibleMoves.length > 0) {
         let current = props.possibleMoves[0];
         if (current[0] === props.col && current[1] === props.row) {
-            highlight = "orange";
+            highlight = "green";
         }
     }
     

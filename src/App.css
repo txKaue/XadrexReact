@@ -3,8 +3,8 @@
 }
 
 .at {
-  padding: 0;
   margin: 5px;
+
 }
 
 .boardImg {
@@ -42,10 +42,10 @@
   padding: 10px 20px;
   margin: 5px 0px 5px 5px;
   right: -20px;
-  color: #f5de9d;
+  color: #000000;
   font-weight: bolder;
   text-transform: uppercase;
-  background-color: #73582f;
+  background-color: #3dd8ff;
 }
 
 .chessBoard p {
@@ -55,3 +55,6 @@
   color: #060606;
   border: 3px solid #9a9a9a;
 }
+
+
+
